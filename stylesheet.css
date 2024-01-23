@@ -30,13 +30,13 @@
    
 
 #navbar__logo {
-    background-color: green;
-    background-image: linear-gradient(to top,#08ff4675 0% , #ffb199 100%);
+    background-color: rgba(209, 210, 219, 0.39);
+    background-image: linear-gradient(to top,#b5ff088a 0% , #ffb199 100%);
     background-size: 100%;
-    background-clip: text;
-    -moz-background-clip:text;
-    -webkit-text-fill-color: transparent;
+     -moz-background-clip:text;
+    -webkit-background-clip: text;
     -moz-text-fil-color: transparent;
+    -webkit-text-fill-color: transparent;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -61,7 +61,7 @@
 
 
 .navbar__links {
-color: rgb(19, 100, 36);
+color:white;
 display:flex;
 align-items: center;
 justify-content: center;
@@ -78,7 +78,7 @@ height: 100%;
     width: 100%;
 }
 
-.bottom {
+.button {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -89,12 +89,12 @@ height: 100%;
     border:none;
     outline:none;
     border-radius: 4px;
-    background:green;
+    background:rgba(22, 20, 126, 0.24);
     color:#fff;
 }
 
-.bottom:hover {
-    background: rgb(61, 43, 226);
+.button:hover {
+    background: yellow;
     transition: all 0.3s ease;
 }
 
@@ -109,12 +109,12 @@ height: 100%;
     justify-content: space-between;
     height: 80px;
     z-index:1;
-    width: 100;
+    width: 100%;
     max-width: 1300px;
     padding: 0;
     }
 
-   .navebar__menu {
+   .navbar__menu {
     display: grid;
     grid-template-columns: auto;
     margin: 0;
@@ -125,11 +125,11 @@ height: 100%;
     transition: all 0.5s ease;
     height: 50vh;
     z-index:-1;
-    background: rgba(30, 55, 70, 0.322);
+    background: #131313;
     }
 
     .navbar__menu.active {
-        background: rgba(23, 114, 84, 0.295);
+        background: #131313;
         top: 100%;
         opacity:1;
         transition: all 0.5s esae;
@@ -146,8 +146,8 @@ height: 100%;
         width: 25px;
         height: 3px;
         margin:5px auto;
-        transition: all 0.3s ese-in-out ;
-        background: rgba(255, 255, 255, 0.219);
+        transition: all 0.3s ease-in-out ;
+        background: white;
     }
     .navbar_item{
       width: 100%;
@@ -171,7 +171,7 @@ height: 100%;
     .navbar__btn {
         padding-bottom: 2rem;
     }
-    .botton {
+    .button {
         display:flex;
         justify-content:center;
         align-items: center;
@@ -201,7 +201,7 @@ height: 100%;
 
 /* Hero Section CSS */
 .main {
-    background-color: rgba(4, 43, 48, 0.075);
+    background-color: rgba(10, 83, 22, 0.856);
 }
 
 .main__container {
@@ -211,7 +211,7 @@ height: 100%;
     justify-self: center;
     margin: 0 auto;
     height: 90vh;
-    background-color:rgb(0, 0, 0);
+    background-color:rgb(6, 75, 17);
     z-index:1;
     width:100%;
     max-width: 1300px;
@@ -244,17 +244,17 @@ height: 100%;
     margin-top: 1rem;
     font-size: 2rem;
     font-weight:700;
-    color:rgb(43, 9, 9);
+    color:white;
 }
 
 .main__btn {
     font-size: 1rem;
-    background-image: linear-gradient(to top, green 0%, rgba(0, 128, 0, 0.459)
+    background-image: linear-gradient(to top, green 0%, rgba(36, 128, 0, 0.918)
     100%);
     padding: 14px 32px;
     border:none;
     border-radius: 4px;
-    color:rgb(17, 1, 1);
+    color:white;
     margin-top: 2rem;
     cursor: pointer;
     position: relative;
@@ -266,7 +266,7 @@ height: 100%;
 .main__btn a{
     position: relative;
     z-index: 2;
-    color: white;
+    color: rgba(90, 6, 6, 0.973);
     text-decoration: none;
 } 
 
@@ -277,7 +277,7 @@ height: 100%;
     left: 0;
     width:0;
     height:100%;
-    background: blueviolet;
+    background: rgb(26, 5, 119);
     transition: all 0.35s;
     border-radius: 4px;
 }
@@ -358,10 +358,11 @@ height: 100%;
 /*Services Section CSS*/
 
 .services {
-    background: white;
+    background: rgba(5, 104, 29, 0.877);
     display: flex;
     flex-direction: column;
-    align-items:100vh;
+    align-items:center;
+    height: 100vh;
 }
 
 .services h1 {
@@ -369,7 +370,7 @@ height: 100%;
     background-image: linear-gradient(to right , green 0%, rgba(0, 128, 0, 0.486) 0%, #ff8c7f 21%, rgba(0, 128, 0, 0.205) 52% ,rgba(0, 128, 0, 0.048) 78%,b12a5b
     100%);
     background-size: 100%;
-    marign-bottom: 5rem;
+    margin-bottom: 5rem;
     font-size: 2.5rem;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -415,12 +416,12 @@ height: 100%;
 }
 
 .services__card button {
-    color:rgb(255, 255, 255);
+    color:white;
     padding: 10px 20px;
     border: none ;
     outline:none;
     border-radius: 4px;
-    background:green;
+    background:rgb(143, 123, 14);
     position:absolute;
     top: 440px;
     left:30px;
@@ -541,7 +542,7 @@ height: 100%;
 
 .social__media--wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     width: 90%;
     max-width:1000px;
