@@ -287,7 +287,7 @@ height: 100%;
 }
 
 .main__btn:hover:after {
-    width: 100;
+    width: 100%;
 
 }
 
